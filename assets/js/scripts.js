@@ -2,9 +2,10 @@
 const questions = document.querySelectorAll(".question")
 
 // open the first answer panel on load
-const answer = document.querySelector(".answer");
-answer.style.maxHeight = answer.scrollHeight + "px";
-
+window.addEventListener("load", function () {
+    const answer = document.querySelector(".answer");
+    answer.style.maxHeight = answer.scrollHeight + "px";
+})
 
 // access elements within the div and hide/show answers
 questions.forEach(function (question) {
