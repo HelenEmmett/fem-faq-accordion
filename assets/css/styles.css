@@ -5,6 +5,7 @@
     --light-pink: hsl(275, 100%, 97%);
     --grayish-purple: hsl(292, 16%, 49%);
     --dark-purple: hsl(292, 42%, 14%);
+    --bright-purple: hsl(281, 86%, 47%);
     --bold: 700;
     --semi-bold: 600;
     --regular: 400;
@@ -64,9 +65,14 @@ main {
     padding-bottom: 8px;
 }
 
-section {
+.question {
     border-bottom: 1px solid var(--light-pink);
     padding: 19px 0;
+    cursor: pointer;
+}
+
+.question:hover h2 {
+    color: var(--bright-purple);
 }
 
 .header-icon {
@@ -134,7 +140,7 @@ section {
 }
 
     .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: var(--grayish-purple);
     }
 
 /* Screen sizes over 650px */
@@ -161,7 +167,7 @@ section {
         padding-bottom: 0;
     }
 
-    section {
+    .question {
         padding: 22px 0;
     }
 
