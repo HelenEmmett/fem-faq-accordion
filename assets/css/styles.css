@@ -47,6 +47,7 @@ h1 {
 h2 {
     font-size: 1rem;
     font-weight: var(--semi-bold);
+    padding-right: 22px;
 }
 
 /* page styles */
@@ -98,27 +99,26 @@ main {
     background: transparent;
     border-color: transparent;
     cursor: pointer;
-    padding-left: 22px;
 }
+
+    .title-btn:focus {
+        outline: 2px dotted var(--bright-purple);
+    }
 
 .title-btn img {
     width: 30px;
 }
 
 .answer {
-    padding-top: 24px;
     font-size: calc(14rem / 16);
     color: var(--grayish-purple);
     line-height: 1.5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
 }
-
-/* show/hide answers and buttons */
-.answer {
-    display: none;
-}
-
-.show-answer .answer {
-    display: block;
+.answer p {
+    padding-top: 24px;
 }
 
 .minus-icon {
@@ -181,6 +181,9 @@ main {
         }
     .answer {
         font-size: calc(16rem / 16);
+    }
+
+    .answer p {
         padding-top: 20px;
     }
 }

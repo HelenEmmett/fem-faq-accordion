@@ -1,18 +1,6 @@
 # Frontend Mentor - FAQ accordion solution
 
 This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,8 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View the live solution](https://helenemmett.github.io/fem-faq-accordion/)
 
 ## My process
 
@@ -39,29 +26,22 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla javascript
 
-### Build plan
-
-- Write HTML
-- Add css
-- Add css for hover states
-- add javascript
 
 ### What I learned
 
 
 ### Continued development
 
+- Update to include accessibility standards
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [FreeCodeCamp course by John Smilga](https://www.youtube.com/watch?v=3PHXvlpOkf4&t=421s) - This helped me understand the logic behind an accordian, but it didn't have a smooth transition for opening the answer panel.
+- [W3Schools](https://www.w3schools.com/howto/howto_js_accordion.asp) - This helped me learn how to add a transition by calculating the answer panel height using "scrollHeight".
 
 ## Author
 
 - Website - [Helen Emmett](https://helenemmett.co.nz/)
 - Frontend Mentor - [@HelenEmmett](https://www.frontendmentor.io/profile/HelenEmmett)
 
-
-## Acknowledgments
 
